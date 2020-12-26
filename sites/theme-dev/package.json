@@ -12,6 +12,7 @@
   },
   "scripts": {
     "develop": "gatsby develop",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deep-clean": "gatsby clean && rm -rf node_modules yarn.lock && yarn install"
   }
 }

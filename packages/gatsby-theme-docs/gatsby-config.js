@@ -18,6 +18,7 @@ module.exports = (options) => {
           },
         },
       },
+      'gatsby-plugin-theme-ui',
     ].filter(Boolean),
   };
 };
