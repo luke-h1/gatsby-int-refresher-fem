@@ -1,0 +1,17 @@
+{
+  "name": "theme-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gatsby": "^2.29.2",
+    "gatsby-theme-docs": "*",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
+  }
+}
