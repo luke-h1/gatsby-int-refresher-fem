@@ -1,1 +1,1 @@
-on lesson styling with theme UI. Negronis 
+on lesson 
