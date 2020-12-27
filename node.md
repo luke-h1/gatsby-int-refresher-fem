@@ -1,1 +1,1 @@
-on lesson 
+on lesson setting up dynamic routes

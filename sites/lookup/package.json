@@ -7,6 +7,12 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.29.2",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
   }
 }
