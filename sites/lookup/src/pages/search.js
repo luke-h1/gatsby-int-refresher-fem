@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from '../components/form';
+import Results from '../components/Results';
 
 const Search = () => (
   <>
@@ -9,8 +10,7 @@ const Search = () => (
       search interface !
     </p>
     <Form />
-    {/* search form */}
-    {/* add results */}
+    <Results name='rick'/>
   </>
 );
 export default Search;

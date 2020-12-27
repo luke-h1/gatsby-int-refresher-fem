@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery } from '@apollo/react-hooks';
-import gql from 'gatsby';
+import gql from 'graphql-tag';
 
 const SEARCH_QUERY = gql`
   query($name: String!) {
@@ -23,7 +23,7 @@ const Results = ({ name }) => {
     variables: { name },
   });
 
-  const hasResults = data && (data.characters.length || []).length > 0;
+  const hasResults = data && (data.characters.results || []).length > 0;
   return (
     <div style={{ maxWidth: 500, margin: '50px auto' }}>
       <h2>Search Results</h2>
@@ -60,7 +60,7 @@ const Results = ({ name }) => {
               </div>
             </div>
           ))
-        : !loading && <p>No Characters found matching "{name}"</p>}
+        : !loading  && <p>No Characters found matching "{name}"</p>}
     </div>
   );
 };
