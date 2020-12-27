@@ -5,10 +5,13 @@
   "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "deep-clean": "gatsby clean && rm -rf node_modules && npm i "
   },
   "dependencies": {
     "@emotion/react": "^11.1.4",
+    "@jlengstorf/gatsby-theme-events": "^1.0.1",
     "@mdx-js/react": "^1.6.22",
     "@theme-ui/presets": "^0.3.5",
     "gatsby": "^2.15.28",
