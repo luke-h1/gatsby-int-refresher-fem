@@ -2,4 +2,3 @@
   from = "/search/*"
   to = "/search"
   status = 200 
-
