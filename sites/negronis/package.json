@@ -10,7 +10,7 @@
     "deep-clean": "gatsby clean && rm -rf node_modules && npm i "
   },
   "dependencies": {
-    "@emotion/react": "^11.1.4",
+    "@emotion/react": "^11.10.6",
     "@jlengstorf/gatsby-theme-events": "^1.0.1",
     "@mdx-js/react": "^1.6.22",
     "@theme-ui/presets": "^0.3.5",
